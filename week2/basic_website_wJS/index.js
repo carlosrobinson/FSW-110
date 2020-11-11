@@ -51,3 +51,5 @@ newOrderedList.appendChild( newlist3 )
 var newFooter = document.createElement("footer")
 newFooter.textContent = "My Footer"
 document.body.append(newFooter)
+
+console.log(document)
