@@ -1,6 +1,6 @@
 var nextLine = "____________________"
 
-// .cocat() function
+// .cocat() method using functions
 
 function myConcat(str1,str2) {
      return str1.concat(str2)
@@ -22,7 +22,7 @@ console.log(myConcat(`${"out"}`,  `${"side"}`))  //combinding two words to make 
 console.log(nextLine)
 //_______________________________
 
-// indexOf function  /* checkout findIndex and find()*/
+// indexOf method using functions /* checkout findIndex and find()*/
 
 function myIndex(myName) {  
     return myName.indexOf(["R"])
@@ -36,9 +36,11 @@ function myIndex2(myName2) {
 console.log(myIndex2("Carlos Robinson"))  // when you get a character that is not in the string it Returns -1 if the item is not found
 console.log(nextLine)
 
-function myIndex2(myName2) {
-    return myName2.concat(myName2.indexOf("R"))
+function myIndex3(myName3) {
+    return myName3.indexOf("i", 2)
 }
-console.log(myIndex2("Carlos Robinson"))
+console.log(myIndex3("Carlos Robinson"))//Find the first occurrence of a letter  in a string, starting the search at position x:
 console.log(nextLine)
+
+// .lastIndexOf() methodusing functions
 
