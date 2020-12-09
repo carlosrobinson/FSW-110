@@ -1,0 +1,26 @@
+@media only screen and (min-width: 490px) {
+    h1 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    /*Form*/
+    #Form1 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    /*Div*/
+    #mainDiv {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        right: 30px;
+    }
+}
+
